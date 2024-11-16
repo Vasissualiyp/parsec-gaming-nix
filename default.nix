@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://builds.parsecgaming.com/package/parsec-linux.deb";
-    sha256 = "sha256-rFSdl7BgnuJAj6w5in0/yszO8b5qcr9b+wjF1WkAU70=";
+    sha256 = "sha256-9F56u+jYj2CClhbnGlLi65FxS1Vq00coxwu7mjVTY1w=";
   };
 
   # The upstream deb package is out of date and doesn't work out of the box
